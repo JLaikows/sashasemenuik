@@ -11,7 +11,7 @@ export default function About() {
       />
       <Box className="flex flex-col justify-center items-center p-10 pt-56 md:pt-32 accent lg:p-20 lg:pl-96 rounded-lg">
         <div className="text-center pb-2">
-          Sasha Semenuik is a model, actress, and singer based in the Tri State
+          Sasha Semeniuk is a model, actress, and singer based in the Tri State
           area. She has experience in bridal, swimwear, lingerie,
           commercial/print, runway, acting, and music video modeling. With
           various published photos, working alongside reputable brands and

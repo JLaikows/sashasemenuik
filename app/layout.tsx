@@ -27,7 +27,7 @@ export default function RootLayout({
       <body>
         <Box className="w-full p-6">
           <Box className="letter-spread text-3xl lg:text-5xl text-center">
-            Sasha Semenuik
+            Sasha Semeniuk
           </Box>
           <Box className="text-2xl lg:text-4xl text-center">Model</Box>
           <Box className="flex flex-row justify-center ">
