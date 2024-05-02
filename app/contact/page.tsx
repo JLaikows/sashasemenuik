@@ -1,4 +1,5 @@
 import { Box, SvgIcon } from "@mui/material";
+import Image from "next/image";
 
 function textConvert(text: string) {
   const obj: any = {};
@@ -13,7 +14,8 @@ function textConvert(text: string) {
 export default function Contact() {
   return (
     <main className="transition faded-element-fast relative top-32 md:-top-10 lg:top-0 flex min-h-screen flex-col md:flex-row items-center justify-between p-2 md:p-2 lg:p-64 lg:pt-0">
-      <img
+      <Image
+        alt=""
         src="https://iili.io/mZg95v.jpg"
         className="absolute w-96 h-96 object-cover rounded-lg top-14 left-44 hidden lg:block"
       />
@@ -40,7 +42,8 @@ export default function Contact() {
         <div>Instagram - __sashadoll__</div>
         <div>TikTok - czarsashaa</div>
         <div>X - sashasaythat</div>
-        <img
+        <Image
+          alt=""
           src="https://iili.io/mZg95v.jpg"
           className="absolute w-80 h-80 object-cover rounded-lg -top-32 md:top-10 block lg:hidden mt-2"
         />

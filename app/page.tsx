@@ -1,4 +1,5 @@
 import { ImageList, ImageListItem } from "@mui/material";
+import Image from "next/image";
 
 export const images = [
   "https://iili.io/mZUhJf.jpg",
@@ -27,12 +28,7 @@ export default function Home() {
     return images.map((imgUrl, i) => {
       return (
         <ImageListItem key={i} className="overflow-hidden  rounded-lg">
-          <img
-            className="example-imgs"
-            loading="lazy"
-            src={imgUrl}
-            alt="imgUrl"
-          />
+          <Image alt="" className="example-imgs" loading="lazy" src={imgUrl} />
         </ImageListItem>
       );
     });
