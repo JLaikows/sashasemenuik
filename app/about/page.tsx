@@ -16,7 +16,7 @@ export default function About() {
           commercial/print, runway, acting, and music video modeling. With
           various published photos, working alongside reputable brands and
           companies, and walking in NYFW 2024, she continues to strive towards
-          excellence and proffessionalism.{" "}
+          excellence and professionalism.{" "}
         </div>
         <div className="font-bold">Measurments</div>
         <div>5’4{'"'}</div>
