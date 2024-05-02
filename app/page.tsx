@@ -7,7 +7,7 @@ export default function Home() {
     return images.map((imgUrl, i) => {
       return (
         <ImageListItem key={i} className="overflow-hidden  rounded-lg">
-          <Image alt="" className="example-imgs" loading="lazy" src={imgUrl} />
+          <img alt="" className="example-imgs" loading="lazy" src={imgUrl} />
         </ImageListItem>
       );
     });

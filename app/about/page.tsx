@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <main className="transition faded-element-fast relative top-32 md:-top-10 lg:top-0 flex min-h-screen flex-col md:flex-row items-center justify-between p-2 md:p-2 lg:p-64 lg:pt-0">
-      <Image
+      <img
         alt=""
         src="https://iili.io/mZg2zN.jpg"
         className="absolute w-96 h-96 object-cover rounded-lg top-14 left-44 hidden lg:block"
@@ -26,7 +26,7 @@ export default function About() {
         <div>Shoe size - 6 - 6 1/2</div>
         <div>Dress - 0/1</div>
         <div>Pants - 0/1</div>
-        <Image
+        <img
           alt=""
           src="https://iili.io/mZg2zN.jpg"
           className="absolute w-80 h-80 object-cover rounded-lg -top-32 md:top-10 block lg:hidden mt-2"
