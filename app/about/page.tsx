@@ -19,7 +19,7 @@ export default function About() {
           excellence and proffessionalism.{" "}
         </div>
         <div className="font-bold">Measurments</div>
-        <div>5’4"</div>
+        <div>5’4{'"'}</div>
         <div>32 in bust</div>
         <div>25 in waist</div>
         <div>34 in hips</div>
