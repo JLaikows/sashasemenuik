@@ -19,6 +19,16 @@ body {
   background: rgb(250, 240, 221);
 }
 
+.hoverunderline:hover {
+  /* text-decoration: underline */
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.hoverunderline {
+  transition: 0.2s;
+}
+
 .imageMove {
   position: relative;
   left: 7%;

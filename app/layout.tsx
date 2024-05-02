@@ -23,6 +23,10 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
           rel="stylesheet"
         />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        ></link>
       </head>
       <body>
         <Box className="w-full p-6">
@@ -30,14 +34,14 @@ export default function RootLayout({
             Sasha Semeniuk
           </Box>
           <Box className="text-2xl lg:text-4xl text-center">Model</Box>
-          <Box className="flex flex-row justify-center ">
-            <Link href="/" className="pr-4 pt-4">
+          <Box className="flex flex-row justify-center h-10 ">
+            <Link href="/" className="pr-4 pt-4 hoverunderline">
               Home
             </Link>
-            <Link href="/about" className="pr-4 pt-4">
+            <Link href="/about" className="pr-4 pt-4 hoverunderline">
               About
             </Link>
-            <Link href="/contact" className="pr-4 pt-4">
+            <Link href="/contact" className="pr-4 pt-4 hoverunderline">
               Contact
             </Link>
           </Box>
