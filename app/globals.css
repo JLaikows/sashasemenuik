@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "animations.css";
+@import "@splidejs/splide/css";
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -18,16 +20,132 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: rgb(251, 247, 239);
+}
+
+.accent {
+  background: rgb(250, 240, 221);
+}
+
+.imageMove {
+  position: relative;
+  left: 7%;
+}
+
+* {
+  font-family: "Libre Baskerville", serif;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.letter-spread {
+  animation-delay: 1s;
+  animation: letterSpread 3s;
+}
+
+.example-imgs:hover {
+  transition-duration: 1s;
+  cursor: pointer;
+  transform: scale(1.5);
+  -ms-transform: scale(1.5); /* IE 9 */
+  -moz-transform: scale(1.5); /* Firefox */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
+}
+
+.example-imgs {
+  transition-duration: 0.5s;
+}
+
+.faded-element-slow {
+  animation-delay: 3s;
+  animation: fadeIn 3s;
+}
+.faded-element-fast {
+  animation-delay: 3s;
+  animation: fadeIn 1s;
+}
+.faded-element-fastest {
+  animation: fadeIn 0.3s;
+}
+
+@keyframes bar1 {
+  100% {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+}
+@keyframes bar2 {
+  0% {
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes bar3 {
+  100% {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    height: 0vh;
+  }
+  100% {
+    height: fit-content;
+  }
+}
+
+@keyframes letterSpread {
+  0% {
+    letter-spacing: -30px;
+  }
+  100% {
+    letter-spacing: 0px;
+  }
+}
+
+@-webkit-keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+.animate__slideInUp {
+  -webkit-animation-name: slideInUp;
+  animation-name: slideInUp;
 }
