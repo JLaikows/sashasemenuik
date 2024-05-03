@@ -28,7 +28,7 @@ export default function RootLayout({
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         ></link>
       </head>
-      <body>
+      <body className="relative">
         <Box className="w-full p-6">
           <Box className="letter-spread text-3xl lg:text-5xl text-center">
             Sasha Semeniuk
@@ -47,6 +47,14 @@ export default function RootLayout({
           </Box>
         </Box>
         {children}
+        <div className="relative bottom-0 flex justify-center w-full flex-col">
+          <div className="text-center text-sm color-lightgrey">
+            Copyright Sasha Semeniuk. All Rights Reserved
+          </div>
+          <div className="text-center text-sm color-lightgrey">
+            Web Design by CodeLaik
+          </div>
+        </div>
       </body>
     </html>
   );

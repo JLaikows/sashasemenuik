@@ -3,11 +3,11 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <main className="transition faded-element-fast relative top-32 md:-top-10 lg:top-0 flex min-h-screen flex-col md:flex-row items-center justify-between p-2 md:p-2 lg:p-64 lg:pt-0">
+    <main className="transition faded-element-fast mt-32 md:mt-56 lg:mt-0 flex flex-col md:flex-row items-center justify-between p-2 md:p-2 lg:p-64 lg:pt-0 md:w-80 md:w-auto">
       <img
         alt=""
         src="https://iili.io/mZg2zN.jpg"
-        className="absolute w-96 h-96 object-cover rounded-lg top-14 left-44 hidden lg:block"
+        className="absolute w-96 h-96 object-cover rounded-lg left-44 hidden lg:block"
       />
       <Box className="flex flex-col justify-center items-center p-10 pt-56 md:pt-32 accent lg:p-20 lg:pl-96 rounded-lg">
         <div className="text-center pb-2">
@@ -29,7 +29,7 @@ export default function About() {
         <img
           alt=""
           src="https://iili.io/mZg2zN.jpg"
-          className="absolute w-80 h-80 object-cover rounded-lg -top-32 md:top-10 block lg:hidden mt-2"
+          className="absolute w-80 h-80 object-cover rounded-lg top-44 block lg:hidden"
         />
       </Box>
     </main>

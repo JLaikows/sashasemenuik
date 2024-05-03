@@ -3,13 +3,13 @@ import { SocialIcon } from "react-social-icons";
 
 export default function Contact() {
   return (
-    <main className="transition faded-element-fast relative top-32 md:-top-10 lg:top-0 flex items-center flex-col md:flex-row items-center justify-between p-2 md:p-2 lg:p-64 lg:pt-0">
-      <img
-        alt=""
-        src="https://iili.io/mZg95v.jpg"
-        className="absolute w-96 h-96 object-cover rounded-lg top-14 left-44 hidden lg:block"
-      />
-      <Box className="flex flex-col justify-center items-center p-10 pt-56 md:pt-32 accent lg:p-20 lg:pl-96 rounded-lg">
+    <main className="transition faded-element-fast sm:right-0 lg:-right-32 top-32 md:top-56 lg:top-0 flex items-center md:justify-center flex-col md:flex-row items-center p-2 md:p-2 lg:p-64 lg:pt-0">
+      <Box className="relative top-32 lg:top-0 flex flex-col justify-center items-center p-10 pt-56 md:pt-32 accent lg:p-20 lg:pl-96 rounded-lg">
+        <img
+          alt=""
+          src="https://iili.io/mZg95v.jpg"
+          className="absolute lg:w-96 lg:h-96 md:w-56 md:h-56 object-cover rounded-lg lg:top-14 lg:-left-10 md:left-70 md:-top-32 hidden md:block lg:block"
+        />
         <div className="pb-10 text-3xl bold">Contact Info</div>
         <a
           className="pb-10 text-2xl underline"
@@ -52,7 +52,7 @@ export default function Contact() {
         <img
           alt=""
           src="https://iili.io/mZg95v.jpg"
-          className="absolute w-80 h-80 object-cover rounded-lg -top-32 md:top-10 block lg:hidden mt-2"
+          className="absolute w-80 h-80 object-cover rounded-lg -top-32 md:top-10 block lg:hidden md:hidden mt-2"
         />
       </Box>
     </main>

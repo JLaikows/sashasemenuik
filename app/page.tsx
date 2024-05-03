@@ -14,7 +14,7 @@ export default function Home() {
   }
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-2 lg:p-64 lg:pt-4 faded-element-slow">
+    <main className="flex flex-col items-center justify-between p-2 lg:p-64 lg:pt-4 faded-element-slow">
       {/* for viewing on desktop */}
       <ImageList variant={"masonry"} className="w-90 hidden md:block" cols={5}>
         {imagesList(images)}
