@@ -3,8 +3,8 @@ import { SocialIcon } from "react-social-icons";
 
 export default function Contact() {
   return (
-    <main className="transition faded-element-fast sm:right-0 lg:-right-32 top-32 md:top-56 lg:top-0 flex items-center md:justify-center flex-col md:flex-row items-center p-2 md:p-2 lg:p-64 lg:pt-0">
-      <Box className="relative top-32 lg:top-0 flex flex-col justify-center items-center p-10 pt-56 md:pt-32 accent lg:p-20 lg:pl-96 rounded-lg">
+    <main className="transition faded-element-fast sm:right-0 lg:-right-32 top-32 flex items-center md:justify-center flex-col md:flex-row items-center p-2 md:p-2 lg:p-64 lg:pt-0">
+      <Box className="relative mt-32 lg:mt-0 flex flex-col justify-center items-center p-10 pt-56 md:pt-32 accent lg:p-20 lg:pl-96 rounded-lg">
         <img
           alt=""
           src="https://iili.io/mZg95v.jpg"

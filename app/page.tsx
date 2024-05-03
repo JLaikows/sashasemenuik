@@ -1,6 +1,5 @@
 import { ImageList, ImageListItem } from "@mui/material";
 import { images } from "../utils/images-temp";
-import Image from "next/image";
 
 export default function Home() {
   function imagesList(images: string[]) {
