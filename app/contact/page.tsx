@@ -43,7 +43,7 @@ export default function Contact() {
             bgColor="black"
           />
           <SocialIcon
-            href="https://twitter.com/sashasaythat"
+            href="https://soundcloud.com/user-889254352"
             network="soundcloud"
             target="_blank"
             bgColor="black"
