@@ -1,19 +1,9 @@
-import { Box, SvgIcon } from "@mui/material";
-import Image from "next/image";
-
-function textConvert(text: string) {
-  const obj: any = {};
-  const textPairs = text.split(";");
-  const arrayPairs = textPairs.map((pair) => pair.split(":"));
-  for (const pair in arrayPairs) {
-    obj[pair[0]] = pair[1];
-  }
-  return obj;
-}
+import { Box } from "@mui/material";
+import { SocialIcon } from "react-social-icons";
 
 export default function Contact() {
   return (
-    <main className="transition faded-element-fast relative top-32 md:-top-10 lg:top-0 flex items-center min-h-screen flex-col md:flex-row items-center justify-between p-2 md:p-2 lg:p-64 lg:pt-0">
+    <main className="transition faded-element-fast relative top-32 md:-top-10 lg:top-0 flex items-center flex-col md:flex-row items-center justify-between p-2 md:p-2 lg:p-64 lg:pt-0">
       <img
         alt=""
         src="https://iili.io/mZg95v.jpg"
@@ -21,16 +11,44 @@ export default function Contact() {
       />
       <Box className="flex flex-col justify-center items-center p-10 pt-56 md:pt-32 accent lg:p-20 lg:pl-96 rounded-lg">
         <div className="pb-10 text-3xl bold">Contact Info</div>
-        <a className="pb-10 text-2xl" href="mailto:sashasaythat@gmail.com">
+        <a
+          className="pb-10 text-2xl underline"
+          href="mailto:sashasaythat@gmail.com"
+        >
           sashasaythat@gmail.com
         </a>
-        <div>
-          <a href="#" className="fa fa-facebook"></a>
-          <a href="#" className="fa fa-instagram"></a>
+        <div className="flex justify-between w-full">
+          <SocialIcon
+            href="https://instagram.com/__sashadoll__/"
+            network="instagram"
+            target="_blank"
+            bgColor="black"
+          />
+          <SocialIcon
+            href="https://www.facebook.com/michele.semeniuk"
+            network="facebook"
+            target="_blank"
+            bgColor="black"
+          />
+          <SocialIcon
+            href="https://www.tiktok.com/@czarsashaa"
+            network="tiktok"
+            target="_blank"
+            bgColor="black"
+          />
+          <SocialIcon
+            href="https://twitter.com/sashasaythat"
+            network="x"
+            target="_blank"
+            bgColor="black"
+          />
+          <SocialIcon
+            href="https://twitter.com/sashasaythat"
+            network="soundcloud"
+            target="_blank"
+            bgColor="black"
+          />
         </div>
-        <div>Instagram - __sashadoll__</div>
-        <div>TikTok - czarsashaa</div>
-        <div>X - sashasaythat</div>
         <img
           alt=""
           src="https://iili.io/mZg95v.jpg"
