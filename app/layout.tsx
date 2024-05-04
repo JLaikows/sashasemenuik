@@ -30,6 +30,7 @@ export default function RootLayout({
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         ></link>
+        <meta property="og:image" content="https://iili.io/mZUhJf.jpg" />
       </head>
       <body className="relative">
         <Box className="w-full p-6">
