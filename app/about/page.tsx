@@ -1,5 +1,11 @@
 import { Box } from "@mui/material";
+import { Metadata } from "next";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: "About",
+  description: "Model | Actress | Singer",
+};
 
 export default function About() {
   return (

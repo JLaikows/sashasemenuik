@@ -7,8 +7,11 @@ import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "description",
-  description: "Sasha",
+  title: {
+    template: "%s | Sasha Semeniuk",
+    default: "Sasha Semeniuk",
+  },
+  description: "Model | Actress | Singer",
 };
 
 export default function RootLayout({
@@ -30,10 +33,10 @@ export default function RootLayout({
       </head>
       <body className="relative">
         <Box className="w-full p-6">
-          <Box className="letter-spread text-3xl lg:text-5xl text-center">
+          <h1 className="letter-spread text-3xl lg:text-5xl text-center">
             Sasha Semeniuk
-          </Box>
-          <Box className="text-2xl lg:text-4xl text-center">Model</Box>
+          </h1>
+          <h2 className="text-2xl lg:text-4xl text-center">Model</h2>
           <Box className="flex flex-row justify-center h-10 ">
             <Link href="/" className="pr-4 pt-4 hoverunderline">
               Home

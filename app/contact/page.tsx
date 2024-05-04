@@ -1,5 +1,11 @@
 import { Box } from "@mui/material";
+import { Metadata } from "next";
 import { SocialIcon } from "react-social-icons";
+
+export const metadata: Metadata = {
+  title: "Contact",
+  description: "Model | Actress | Singer",
+};
 
 export default function Contact() {
   return (
