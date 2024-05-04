@@ -30,7 +30,19 @@ export default function RootLayout({
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         ></link>
-        <meta property="og:image" content="https://iili.io/mZUhJf.jpg" />
+        <meta property="og:image" content="https://iili.io/mZUDqF.jpg" />
+        <meta property="og:title" content="Sasha Semeniuk" />
+        <meta property="og:description" content="Model | Actress | Singer" />
+        <meta property="og:url" content="https://www.sashasemeniuk.com" />
+        <meta property="og:type" content="website" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:site" content="@sashasaythat" />
+        <meta property="twitter:title" content="Sasha Semeniuk" />
+        <meta
+          property="twitter:description"
+          content="Model | Actress | Singer"
+        />
+        <meta property="twitter:image" content="https://iili.io/mZUDqF.jpg" />
       </head>
       <body className="relative">
         <Box className="w-full p-6">
