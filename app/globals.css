@@ -12,11 +12,10 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: rgb(251, 247, 239);
 }
 
 .accent {
-  background: rgb(250, 240, 221);
+  background: #f2f2f2;
 }
 
 .hoverunderline:hover {
