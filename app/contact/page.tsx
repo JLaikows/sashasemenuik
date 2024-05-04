@@ -14,7 +14,7 @@ export default function Contact() {
         <img
           alt=""
           src="https://iili.io/mZg95v.jpg"
-          className="absolute lg:w-96 lg:h-96 md:w-56 md:h-56 object-cover rounded-lg lg:top-14 lg:-left-10 md:left-70 md:-top-32 hidden md:block lg:block"
+          className="absolute lg:w-96 lg:h-96 md:w-56 md:h-56 object-cover rounded-lg lg:top-8 lg:-left-10 md:left-70 md:-top-32 hidden md:block lg:block"
         />
         <div className="pb-10 text-3xl bold">Contact Info</div>
         <a
@@ -23,7 +23,7 @@ export default function Contact() {
         >
           sashasaythat@gmail.com
         </a>
-        <div className="flex justify-between w-full">
+        <div className="flex justify-around w-full p-2">
           <SocialIcon
             href="https://instagram.com/__sashadoll__/"
             network="instagram"
@@ -42,6 +42,8 @@ export default function Contact() {
             target="_blank"
             bgColor="black"
           />
+        </div>
+        <div className="flex justify-around w-full p-2">
           <SocialIcon
             href="https://twitter.com/sashasaythat"
             network="x"
@@ -51,6 +53,12 @@ export default function Contact() {
           <SocialIcon
             href="https://soundcloud.com/user-889254352"
             network="soundcloud"
+            target="_blank"
+            bgColor="black"
+          />
+          <SocialIcon
+            href="https://open.spotify.com/artist/4D2RuthmUmMAQquMjl97eS?si=MM6rmtEzT_qq-LLB02-9lg"
+            network="spotify"
             target="_blank"
             bgColor="black"
           />
