@@ -39,7 +39,7 @@ export default function Login() {
   };
   return (
     <main className="transition faded-element-fast flex items-center justify-center flex-col md:flex-row items-center p-2 md:p-2 lg:p-64 lg:pt-0">
-      <Box className="relative mt-32 lg:mt-0 flex flex-col justify-center items-center p-10 accent lg:p-20 lg:pl-96 rounded-lg">
+      <Box className="relative mt-32 lg:mt-0 flex flex-col justify-center items-center p-10 accent lg:p-20 rounded-lg">
         <FormControl>
           <TextField
             className="mb-4 bg-white"
